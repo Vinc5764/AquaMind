@@ -108,8 +108,8 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-blue-100 p-8 rounded-lg">
               <p className="text-gray-600 mb-4">
-                "This app has made controlling my smart home devices so easy and
-                convenient."
+                This app has made controlling my smart home devices so easy and
+                convenient.
               </p>
               <div className="flex items-center">
                 <Image
