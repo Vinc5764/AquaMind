@@ -1,14 +1,13 @@
-import { Metadata } from 'next';
-import { ReactNode } from 'react';
+import { Metadata } from "next";
+import { ReactNode } from "react";
 
-import Navbar from '@/components/Navbar';
+import Navbar from "@/components/Navbar";
 
-import DashboardNavbar from '@/components/dashboard/DashboardNavbar';
+import DashboardNavbar from "@/components/dashboard/DashboardNavbar";
 
 export const metadata: Metadata = {
-  title: 'Acquamind',
-  description:
-    'A water Quality Detection System',
+  title: "Acquamind",
+  description: "A water Quality Detection Systerm",
 };
 
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
