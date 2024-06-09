@@ -19,7 +19,7 @@ export const nav_links = [
   //   icon: "TransactionMinus",
   // },
   {
-    title: "Tariffs",
+    title: "Link 1",
     link: "/dashboard/tariffs",
     icon: "WalletMoney",
     children: [
@@ -34,7 +34,7 @@ export const nav_links = [
     ],
   },
   {
-    title: "BillsNTees",
+    title: "Link 2",
     link: "/dashboard/billing",
     icon: "TableDocument",
   },
@@ -44,7 +44,7 @@ export const nav_links = [
   //   icon: "DocumentUpload",
   // },
   {
-    title: "Messages",
+    title: "Link 3",
     link: "/dashboard/messages",
     icon: "Message2",
     children: [
@@ -59,12 +59,12 @@ export const nav_links = [
     ],
   },
   {
-    title: "Customer Data",
+    title: "Link 4",
     link: "/dashboard/customers",
     icon: "UserSquare",
   },
   {
-    title: "Meter Data",
+    title: "Link 5",
     link: "/dashboard/meters",
     icon: "MainComponent",
   },
@@ -73,7 +73,6 @@ const DashboardNavbar = () => {
   const pathname = usePathname();
   const r = useRouter();
   const [isOpen, setIsOpen] = useState(false);
-
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
@@ -128,25 +127,6 @@ const DashboardNavbar = () => {
                 </p>
               </div>
             ))}
-            <section className="flex flex-col">
-              <div className="flex items-center gap-4 hover:bg-[white]/10 duration-300 p-2 rounded-lg cursor-pointer">
-                <span className="flex items-center justify-center bg-[#fc2d06] h-[45px] w-[45px] text-[0.75rem] font-semibold text-white-50 rounded-full">
-                  AF
-                </span>
-                <div>
-                  <h4 className="text-white-50 text-[0.9rem] font-medium">
-                    Akwasi Frimpong
-                  </h4>
-                  <p className="text-[0.8rem] font-extralight text-white-200">
-                    Administrator
-                  </p>
-                </div>
-              </div>
-              <div className="text-white-50 flex items-center gap-6 cursor-pointer bg-[white]/5 group px-2 py-3 rounded-lg duration-500 mt-6">
-                <Icon.LogoutCurve size={20} />
-                <p>Logout</p>
-              </div>
-            </section>
           </nav>
         </div>
 
@@ -187,11 +167,11 @@ const DashboardNavbar = () => {
             <section className="flex pt-24 flex-col">
               <div className="flex items-center text-white gap-4 hover:bg-[white]/10 duration-300 p-2 rounded-lg cursor-pointer">
                 <span className="flex items-center justify-center bg-[#fc2d06] h-[45px] w-[45px] text-[0.75rem] font-semibold text-white-50 rounded-full">
-                  AF
+                  OK
                 </span>
                 <div>
                   <h4 className="text-white-50 text-[0.9rem] font-medium">
-                    Akwasi Frimpong
+                    Obeng Kwabena
                   </h4>
                   <p className="text-[0.8rem] font-extralight text-white-200">
                     Administrator

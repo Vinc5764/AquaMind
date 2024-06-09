@@ -1,19 +1,20 @@
 import { Metadata } from 'next';
 import { ReactNode } from 'react';
 
-// import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Navbar';
+
 import DashboardNavbar from '@/components/dashboard/DashboardNavbar';
 
 export const metadata: Metadata = {
-  title: 'Dev2Win',
+  title: 'Acquamind',
   description:
-    'A career building platform enriched with AI and Human Mentorship',
+    'A water Quality Detection System',
 };
 
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <main className="relative">
-      {/* <Navbar /> */}
+      <Navbar />
 
       <div className="flex">
         <DashboardNavbar />
