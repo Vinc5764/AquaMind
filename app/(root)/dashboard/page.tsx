@@ -25,7 +25,7 @@ const page: React.FC = () => {
           <FeatureCard
             icon="Activity"
             title="Water Quality Metrics"
-            description="Live updates of water usage data from all connected meters."
+            description="Live updates of water quality data from all connected setups."
           >
             <RealTimeMonitoringChart />
           </FeatureCard>
