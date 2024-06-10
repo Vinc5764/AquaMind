@@ -41,7 +41,7 @@ const NotificationSystem = () => {
   const r = useRouter();
   return (
     <>
-      <Dialog>
+      {/* <Dialog>
         <DialogTrigger></DialogTrigger>
         <DialogContent>
           <DialogHeader>
@@ -52,13 +52,11 @@ const NotificationSystem = () => {
             </DialogDescription>
           </DialogHeader>
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
 
       <DropdownMenu>
         <DropdownMenuTrigger>
-          <Button className="bg-blue-500 text-white relative">
-            <Icon.Notification size={24} />
-          </Button>
+          open {/*<Icon.Notification size={24} /> */}
         </DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuLabel>My Account</DropdownMenuLabel>

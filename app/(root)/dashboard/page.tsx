@@ -10,43 +10,33 @@ import {
 
 import * as Icon from "iconsax-react";
 import DashboardIcon from "@/components/dashboard/DashboardIcon";
-
+import NotificationSystem from "@/components/NotificationSystem";
+import RealTimeMonitoringChart from "@/components/charts/charts";
+import CombinedCharts from "@/components/CombinedCharts";
 
 const page: React.FC = () => {
   return (
     <>
-      <h1> Dashboard For Water Quality Metrics</h1>
-      {/* <div className="fixed right-5 top-4  mb-4 ">
+      <div className="fixed right-5 top-4  mb-4 ">
         <NotificationSystem />
       </div>
       <div className="p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
           <FeatureCard
             icon="Activity"
-            title="Real-Time Data Monitoring"
+            title="Water Quality Metrics"
             description="Live updates of water usage data from all connected meters."
           >
             <RealTimeMonitoringChart />
           </FeatureCard>
-          <FeatureCard
-            icon="Message2"
-            title="System Alerts"
-            description="Notifications for unusual activity such as leaks or tampering."
-          />
-          <FeatureCard
-            icon="TableDocument"
-            title="Usage Trends"
-            description="Daily, weekly, and monthly water usage charts."
-          >
-            <CombinedCharts />
-          </FeatureCard>
+
           <FeatureCard
             icon="Settings"
             title="Quick Actions"
-            description="Shortcuts to important functions like billing and customer management."
+            description="Shortcuts to upload and predict water quality with custom data"
           />
         </div>
-      </div> */}
+      </div>
     </>
   );
 };

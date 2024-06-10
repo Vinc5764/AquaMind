@@ -9,7 +9,7 @@ import whitelogo from "@/public/logo-white.svg";
 
 export const nav_links = [
   {
-    title: "Home",
+    title: "Overview",
     link: "/dashboard",
     icon: "Activity",
   },
@@ -19,7 +19,7 @@ export const nav_links = [
   //   icon: "TransactionMinus",
   // },
   {
-    title: "Link 1",
+    title: "Prediction",
     link: "/dashboard/tariffs",
     icon: "WalletMoney",
     children: [
@@ -34,7 +34,7 @@ export const nav_links = [
     ],
   },
   {
-    title: "Link 2",
+    title: "Analytics",
     link: "/dashboard/billing",
     icon: "TableDocument",
   },
@@ -44,7 +44,7 @@ export const nav_links = [
   //   icon: "DocumentUpload",
   // },
   {
-    title: "Link 3",
+    title: "Report",
     link: "/dashboard/messages",
     icon: "Message2",
     children: [
@@ -59,14 +59,9 @@ export const nav_links = [
     ],
   },
   {
-    title: "Link 4",
+    title: "Settings",
     link: "/dashboard/customers",
     icon: "UserSquare",
-  },
-  {
-    title: "Link 5",
-    link: "/dashboard/meters",
-    icon: "MainComponent",
   },
 ];
 const DashboardNavbar = () => {
@@ -177,10 +172,6 @@ const DashboardNavbar = () => {
                     Administrator
                   </p>
                 </div>
-              </div>
-              <div className="text-white  flex items-center gap-6 cursor-pointer bg-[white]/5 group px-2 py-3 rounded-lg duration-500 mt-6">
-                <Icon.LogoutCurve size={20} />
-                <p>Logout</p>
               </div>
             </section>
           </section>
